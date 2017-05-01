@@ -8,21 +8,21 @@ oh-my-zsh
  
        $ git clone https://github.com/robbyrussell/oh-my-zsh
 		
-       git cloning should auto set the shell, elminating 
-	   the need for instruction 2 below
+    git cloning should auto set the shell, elminating 
+    the need for instruction 2 below
 
 2. Check that shell has changed to zsh 
 
-    $ echo $SHELL
+       $ echo $SHELL
 	
-	   Expected result: /bin/zsh or similar
+	Expected result: /bin/zsh or similar
 
-	   if not
+	if not
  
-	$ chsh -s $(which zsh)
+       $ chsh -s $(which zsh)
 	
-    	Need to log back into see the change
-		using the cmd above
+     Need to log back into see the change
+     using the cmd above
 
 3. Install Prerequisties
 
@@ -33,9 +33,9 @@ Tmux
 
 1. Install Prequisites
 	
-	$ sudo dnf install automake
+	   $ sudo dnf install automake
 
-	$ sudo dnf install libevent-devel
+	   $ sudo dnf install libevent-devel
 
 	$ sudo dnf install ncurses-devel
 
