@@ -100,5 +100,3 @@ Tmux
     Instructions here:
     200~http://vim.wikia.com/wiki/Switch_color_schemes#Script
 
-
-5. Customize airline themes to get rid of unscaled menu statuses
