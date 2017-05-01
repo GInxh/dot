@@ -3,10 +3,10 @@ oh-my-zsh
 1. ZSH install
     
        $ sudo dnf install zsh
-
-	      or
+    
+    or
  
-	$ git clone https://github.com/robbyrussell/oh-my-zsh
+       $ git clone https://github.com/robbyrussell/oh-my-zsh
 		
        git cloning should auto set the shell, elminating 
 	   the need for instruction 2 below
