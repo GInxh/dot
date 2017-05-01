@@ -24,10 +24,17 @@ oh-my-zsh
      Need to log back into see the change
      using the cmd above
 
-3. Install Prerequisties
+
+
+
+oh-my-zsh
+
+1. Install Prerequisites
 
 	curl or wget which usually come with std unix default installs
-	Fedora 25 has curl default
+
+
+
 
 Tmux
 
@@ -37,23 +44,23 @@ Tmux
 
 	   $ sudo dnf install libevent-devel
 
-	$ sudo dnf install ncurses-devel
+   	   $ sudo dnf install ncurses-devel
 
 2. Install Tmux
 
 	Preferable
 	
- 	$ sudo dnf install tmux
+ 	   $ sudo dnf install tmux
 	
 	or
 
-	$ git clone https://github.com/tmux/tmux.git
+   	   $ git clone https://github.com/tmux/tmux.git
 
-	$ cd tmux
+	   $ cd tmux
 
-	$ sh autogen.sh
+	   $ sh autogen.sh
 
-	$ ./configure && make
+	   $ ./configure && make
         
 	git clone seems to have issues with auto tmux profile config if zsh is installed
 
@@ -64,23 +71,23 @@ Tmux
 
     Install Powerline fonts
 
-    $ git clone https://github.com/powerline/fonts.git
+       $ git clone https://github.com/powerline/fonts.git
 
-    $ cd fonts
+       $ cd fonts
 
-    $ ./install.sh
+       $ ./install.sh
 
-    $ cd..
+       $ cd..
  
-    $ rm -rf fonts
+       $ rm -rf fonts
 
     Utilize vimrc file and put in ~/.vimrc
 
 4.  Sample themes on your own vim files in terminal
     
-    $ cd ~/.vim/bundle
+       $ cd ~/.vim/bundle
 
-    $ git clone https://github.com/felixhummel/setcolors.vim.git setcolors
+       $ git clone https://github.com/felixhummel/setcolors.vim.git setcolors
 
     
     Instructions here:
