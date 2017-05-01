@@ -1,5 +1,6 @@
 oh-my-zsh
 
+
 1. ZSH install
     
        $ sudo dnf install zsh
@@ -10,6 +11,7 @@ oh-my-zsh
 		
     git cloning should auto set the shell, elminating 
     the need for instruction 2 below
+
 
 2. Check that shell has changed to zsh 
 
@@ -29,6 +31,7 @@ oh-my-zsh
 
 oh-my-zsh
 
+
 1. Install Prerequisites
 
 	curl or wget which usually come with std unix default installs
@@ -38,6 +41,7 @@ oh-my-zsh
 
 Tmux
 
+
 1. Install Prequisites
 	
 	   $ sudo dnf install automake
@@ -45,6 +49,7 @@ Tmux
 	   $ sudo dnf install libevent-devel
 
    	   $ sudo dnf install ncurses-devel
+
 
 2. Install Tmux
 
@@ -65,6 +70,7 @@ Tmux
 	git clone seems to have issues with auto tmux profile config if zsh is installed
 
 
+
 3. Customize VIM
 
     Check Vim version
@@ -83,6 +89,7 @@ Tmux
 
     Utilize vimrc file and put in ~/.vimrc
 
+
 4.  Sample themes on your own vim files in terminal
     
        $ cd ~/.vim/bundle
@@ -92,5 +99,6 @@ Tmux
     
     Instructions here:
     200~http://vim.wikia.com/wiki/Switch_color_schemes#Script
+
 
 5. Customize airline themes to get rid of unscaled menu statuses
