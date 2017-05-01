@@ -2,9 +2,9 @@ oh-my-zsh
 
 1. ZSH install
     
-    $ sudo dnf install zsh
+       $ sudo dnf install zsh
 
-	   or
+	      or
  
 	$ git clone https://github.com/robbyrussell/oh-my-zsh
 		
