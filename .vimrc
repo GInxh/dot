@@ -12,6 +12,12 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'https://github.com/jiangmiao/auto-pairs'
 Plugin 'christoomey/vim-tmux-navigator'
+"Plugin 'valloric/YouCompleteMe!'
+"Plugin 'tpope/vim-fugitive'
+"Plugin 'https://github.com/petRUShka/vim-opencl'
+"Plugin 'https://github.com/scrooloose/syntastic'
+"Plugin 'https://github.com/airblade/vim-gitgutter'
+"Plugin 'https://github.com/scrooloose/nerdtree'
 
 Bundle 'Powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'bilalq/lite-dfm'
@@ -28,6 +34,7 @@ filetype plugin indent on
 " airline settings
 let g:airline_theme='papercolor'
 let g:airline_powerline_fonts=1
+let g:airline#extensions#whitespace#enabled=0
 
 " lite-DFM settings
 nnoremap <Leader>z :LiteDFMToggle<CR>i<Esc>`^
