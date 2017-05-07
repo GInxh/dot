@@ -12,12 +12,6 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'https://github.com/jiangmiao/auto-pairs'
 Plugin 'christoomey/vim-tmux-navigator'
-"Plugin 'valloric/YouCompleteMe!'
-"Plugin 'tpope/vim-fugitive'
-"Plugin 'https://github.com/petRUShka/vim-opencl'
-"Plugin 'https://github.com/scrooloose/syntastic'
-"Plugin 'https://github.com/airblade/vim-gitgutter'
-"Plugin 'https://github.com/scrooloose/nerdtree'
 
 Bundle 'Powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'bilalq/lite-dfm'
@@ -40,8 +34,9 @@ let g:airline#extensions#whitespace#enabled=0
 nnoremap <Leader>z :LiteDFMToggle<CR>i<Esc>`^
 " nnoremap <Leader>z :LiteDFMClose<CR>t
 nnoremap <Leader>z :LiteDFMToggle<CR>:silent !tmux set status > /dev/null 2>&1<CR>:redraw!<CR>
-
-
+let g:lite_dfm_normal_bg_cterm = 234
+let g:lite_dfm_normal_bg_gui = '#abcabc'
+let g:lite_dfm_left_offset = 18
 " Non-plugin commands go below this line
 " " ======================================
 "
@@ -57,7 +52,7 @@ syntax on
 set tabstop=4 " number of visual spaces per TAB
 set shiftwidth=4
 set expandtab
-colorscheme wellsokai 
+colorscheme phoenix 
 set guifont=Hack\ for\ Powerline
 set laststatus=2
 set directory^=$HOME/.vim/tmp/
