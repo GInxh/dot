@@ -9,6 +9,11 @@
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="kardan"
 
+#Deletes the title at the top of the terminal
+#inherently redundant based on other terminal settings
+DISABLE_AUTO_TITLE="true"
+
+printf "\033],%s\07\n"""
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
