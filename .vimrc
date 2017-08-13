@@ -36,6 +36,11 @@ nnoremap <Leader>z :LiteDFMToggle<CR>i<Esc>`^
 nnoremap <Leader>z :LiteDFMToggle<CR>:silent !tmux set status > /dev/null 2>&1<CR>:redraw!<CR>
 let g:lite_dfm_normal_bg_cterm = '000'
 let g:lite_dfm_left_offset = 18
+
+" Std Vim key-maps
+map <Enter> o<ESC>
+map <S-Enter> O<ESC>
+
 " Non-plugin commands go below this line
 " " ======================================
 "
