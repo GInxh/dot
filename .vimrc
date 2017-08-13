@@ -15,7 +15,7 @@ Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'https://github.com/felixhummel/setcolors.vim'
 Bundle 'Powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'bilalq/lite-dfm'
-
+Plugin 'https://github.com/tpop/vim-sensible'
 "====================================
 " All plugins must go above this line^
 
@@ -24,7 +24,7 @@ filetype plugin indent on
 
 " plugin commands go below this line
 " ======================================
-"
+
 " airline settings
 let g:airline_theme='papercolor'
 let g:airline_powerline_fonts=1
