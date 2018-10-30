@@ -100,6 +100,6 @@ Tmux
     Instructions here:
     200~http://vim.wikia.com/wiki/Switch_color_schemes#Script
 
-5. Other rando stuff to update late
+5. Other rando stuff to org into docker dot files later 
 
    `docker run --name tor-proxy -it -p 8118:8118 -p 9050:9050 -d dperson/torproxy`
