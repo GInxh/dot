@@ -1,4 +1,6 @@
 set nocompatible
+
+
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -53,11 +55,12 @@ set termencoding=utf-8
 set laststatus=2
 set number " show line numbers
 set showmatch " highlight matching 
+set backspace=indent,eol,start
 syntax on
 set tabstop=4 " number of visual spaces per TAB
 set shiftwidth=4
 set expandtab
-colorscheme phoenix 
+colorscheme dracula
 set guifont=Hack\ for\ Powerline
 set laststatus=2
 set directory^=$HOME/.vim/tmp/
