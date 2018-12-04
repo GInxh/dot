@@ -1,7 +1,4 @@
-oh-my-zsh
-
-
-1. ZSH install
+#### oh-my-zsh
     
        $ sudo dnf install zsh
     
@@ -13,7 +10,7 @@ oh-my-zsh
     the need for instruction 2 below
 
 
-2. Check that shell has changed to zsh 
+#### Check that shell has changed to zsh 
 
        $ echo $SHELL
 	
@@ -28,36 +25,7 @@ oh-my-zsh
 
 
 
-
-oh-my-zsh
-
-
-1. Install Prerequisites
-
-	curl or wget which usually come with std unix default installs
-
-
-
-
-Tmux
-
-
-1. Install Prequisites
-	
-	   $ sudo dnf install automake
-
-	   $ sudo dnf install libevent-devel
-
-   	   $ sudo dnf install ncurses-devel
-
-
-2. Install Tmux
-
-	Preferable
-	
- 	   $ sudo dnf install tmux
-	
-	or
+#### tmux 	
 
    	   $ git clone https://github.com/tmux/tmux.git
 
@@ -67,11 +35,11 @@ Tmux
 
 	   $ ./configure && make
         
-	git clone seems to have issues with auto tmux profile config if zsh is installed
+   i	git clone seems to have issues with auto tmux profile config if zsh is installed
 
 
 
-3. Customize VIM
+### vim 
 
     Check Vim version
 
@@ -89,8 +57,39 @@ Tmux
 
     Utilize vimrc file and put in ~/.vimrc
 
+#### 
 
-4.  Sample themes on your own vim files in terminal
+```shell
+brew update
+brew install vim --override-system-vi
+source ~/.bash_profile
+vim --version
+which vim
+```
+
+##Install Vundle
+
+Vundle is a vim plugin manager : https://github.com/gmarik/Vundle.vim
+
+```
+$ mkdir ~/.vim
+$ mkdir ~/.vim/bundle
+$ cd ~/.vim/bundle
+$ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
+##Setup .vimrc
+
+Create a `~/.vimrc` file with the content of the other file in the gist.
+
+##Install Plugins in vi
+
+* Launch vi : `vi`
+* :so % 
+* Install plugins : `:PluginInstall`
+
+
+#### Sample themes on your own vim files in terminal
     
        $ cd ~/.vim/bundle
 
