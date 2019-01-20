@@ -64,3 +64,4 @@ colorscheme dracula
 set guifont=Hack\ for\ Powerline
 set laststatus=2
 set directory^=$HOME/.vim/tmp/
+set belloff=all
