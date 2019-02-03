@@ -4,6 +4,13 @@
 * kardan
 https://github.com/robbyrussell/oh-my-zsh/wiki/External-themes
 
+### iTerm2
+https://github.com/powerline/fonts
+Inconsolata for Powerline 
+Roboto Mono Light 
+Font size 11 
+anti-aliased 
+
 
 ### vim 
 
