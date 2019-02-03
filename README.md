@@ -1,42 +1,7 @@
-#### oh-my-zsh
-    
-       $ sudo dnf install zsh
-    
-    or
- 
-       $ git clone https://github.com/robbyrussell/oh-my-zsh
-		
-    git cloning should auto set the shell, elminating 
-    the need for instruction 2 below
-
-
-#### Check that shell has changed to zsh 
-
-       $ echo $SHELL
-	
-	Expected result: /bin/zsh or similar
-
-	if not
- 
-       $ chsh -s $(which zsh)
-	
-     Need to log back into see the change
-     using the cmd above
-
-
-
-#### tmux 	
-
-   	   $ git clone https://github.com/tmux/tmux.git
-
-	   $ cd tmux
-
-	   $ sh autogen.sh
-
-	   $ ./configure && make
-        
-   i	git clone seems to have issues with auto tmux profile config if zsh is installed
-
+### zsh 
+#### Themes
+* oxide 
+* kardan
 
 
 ### vim 
