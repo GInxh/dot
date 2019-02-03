@@ -2,6 +2,7 @@
 #### Themes
 * oxide 
 * kardan
+https://github.com/robbyrussell/oh-my-zsh/wiki/External-themes
 
 
 ### vim 
