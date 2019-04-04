@@ -75,3 +75,5 @@ Create a `~/.vimrc` file with the content of the other file in the gist.
 5. Other rando stuff to org into docker dot files later 
 
    `docker run --name tor-proxy -it -p 8118:8118 -p 9050:9050 -d dperson/torproxy`
+
+
