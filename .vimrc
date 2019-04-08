@@ -1,6 +1,4 @@
 set nocompatible
-
-
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -18,7 +16,8 @@ Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'https://github.com/felixhummel/setcolors.vim'
 Bundle 'Powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'bilalq/lite-dfm'
-Plugin 'https://github.com/tpop/vim-sensible'
+" Plugin 'https://github.com/tpop/vim-sensible'
+Plugin 'scrooloose/syntastic'
 "====================================
 " All plugins must go above this line^
 
@@ -44,6 +43,17 @@ let g:lite_dfm_left_offset = 18
 map <Enter> o<ESC>
 map <S-Enter> O<ESC>
 
+" for syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_yaml_checkers = ['yamllint']
+
 " Non-plugin commands go below this line
 " " ======================================
 "
@@ -58,9 +68,9 @@ set showmatch " highlight matching
 set backspace=indent,eol,start
 syntax on
 set tabstop=4 " number of visual spaces per TAB
-set shiftwidth=4
+set shiftwidth=2
 set expandtab
-colorscheme dracula
+colorscheme molokai
 set guifont=Hack\ for\ Powerline
 set laststatus=2
 set directory^=$HOME/.vim/tmp/
