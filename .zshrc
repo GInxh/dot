@@ -1,19 +1,22 @@
 # If you come from bash you might have to change your $PATH.
-  export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/$NOPE/bin:$PATH
+export PATH=$HOME/$NOPE/path.zsh.inc:$PATH
+
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/ginxh/.oh-my-zsh
+export ZSH=/Users/USER/.oh-my-zsh
+
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="kardan"
+ZSH_THEME="oxide"
 
 #Deletes the title at the top of the terminal
 #inherently redundant based on other terminal settings
 DISABLE_AUTO_TITLE="true"
 
-printf "\033],%s\07\n"""
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -56,8 +59,6 @@ printf "\033],%s\07\n"""
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
-
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -85,6 +86,9 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# aliases
+alias zshconfig="vim ~/.zshrc"
+alias ohmyzsh="vim ~/.oh-my-zsh"
+alias kctl='kubectl'
+bindkey "^X\x7f" backward-kill-line
+POWERLEVEL9K_MODE='nerdfont-complete'
