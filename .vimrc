@@ -17,7 +17,7 @@ Plugin 'https://github.com/felixhummel/setcolors.vim'
 Bundle 'Powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'bilalq/lite-dfm'
 " Plugin 'https://github.com/tpop/vim-sensible'
-Plugin 'scrooloose/syntastic'
+" Plugin 'scrooloose/syntastic'
 "====================================
 " All plugins must go above this line^
 
@@ -38,6 +38,9 @@ nnoremap <Leader>z :LiteDFMToggle<CR>i<Esc>`^
 nnoremap <Leader>z :LiteDFMToggle<CR>:silent !tmux set status > /dev/null 2>&1<CR>:redraw!<CR>
 let g:lite_dfm_normal_bg_cterm = '000'
 let g:lite_dfm_left_offset = 18
+" remap copy pasta no working adding this
+:map <C-c> y
+:map <C-v> p
 
 " Std Vim key-maps
 map <Enter> o<ESC>
