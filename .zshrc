@@ -8,6 +8,8 @@ export GOPATH=$HOME/go-workspace # don't forget to change your path correctly!
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
+export PATH=$HOME/.gem/ruby/2.7.0/bin:$PATH
+
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -111,3 +113,5 @@ alias ohmyzsh="vim ~/.oh-my-zsh"
 alias kc='kubectl'
 bindkey "^X\x7f" backward-kill-line
 POWERLEVEL9K_MODE='nerdfont-complete'
+eval "$(rbenv init -)"
+source $HOME/.zshenv

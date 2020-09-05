@@ -7,6 +7,9 @@ import ssh-agent config file into ~/.ssh/config
 ### Macosx Mojave
 
 #### zsh config 
+ruby fails zsh cmd recovery if wrong path: 
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
+export PATH
 
 #### powerline fonts 
 * install powerline fonts here: https://medium.com/@elviocavalcante/5-steps-to-improve-your-terminal-appearance-on-mac-osx-f58b20058c84
